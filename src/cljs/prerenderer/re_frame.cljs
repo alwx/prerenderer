@@ -2,7 +2,7 @@
 
 (ns prerenderer.re-frame
   (:require [re-frame.core :as re-frame]
-            [reagent.core :as reagent]
+            [reagent.dom.server :as reagent]
             [cljs.core.async :refer [<! timeout]])
   (:require-macros [cljs.core.async.macros :refer [go-loop]]))
 

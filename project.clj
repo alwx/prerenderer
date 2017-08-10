@@ -1,18 +1,17 @@
 ;;;; Copyright © 2015 Carousel Apps, Ltd. All rights reserved.
 
-(defproject com.carouselapps/prerenderer "0.3.0-SNAPSHOT"
+(defproject com.carouselapps/prerenderer "0.3.1-SNAPSHOT"
   :description "Server pre-rendering for Single Page Applications using ClojureScript/JavaScript by use of NodeJS."
   :url "https://CarouselApps.com/prerenderer"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
   :lein-release {:deploy-via :clojars}
-  :signing {:gpg-key "F2FB1C6F"}
   :scm {:name "git"
-        :url  "https://github.com/carouselapps/prerenderer"}
+        :url  "https://github.com/alwx/prerenderer"}
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "1.7.48"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.9.660"]
                  [org.clojure/tools.cli "0.3.3"]
                  [clj-http "2.0.0"]]
   :plugins [[lein-npm "0.6.1"]]
